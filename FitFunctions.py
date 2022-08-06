@@ -55,8 +55,7 @@ def fitData(xDados, yDados):
         return a * (x + b) ** 2 - c * (x + d) * np.cos(e * x) + f * x + g
 
     def PolinomioGrau13(x, a, b, c, d, e, f, g, h, i, j, k, l, m, n):
-        return a * (x ** 13) + b * (x ** 12) + c * (x ** 11) + d * (x ** 10) + e * (x ** 9) + f * (x ** 8) + g * (
-                    x ** 7) \
+        return a * (x ** 13) + b * (x ** 12) + c * (x ** 11) + d * (x ** 10) + e * (x ** 9) + f * (x ** 8) + g * (x ** 7) \
                + h * (x ** 6) + i * (x ** 5) + j * (x ** 4) + k * (x ** 3) + l * (x ** 2) + m * x + n
 
     listaFuncoes = {
